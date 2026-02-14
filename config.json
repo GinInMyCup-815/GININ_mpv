@@ -1,0 +1,21 @@
+{
+  "mpv_path": "mpv",
+  "profiles": {
+    "series": {
+      "source_folder": "D:\\Media\\main_title",
+      "watched_folder": "D:\\Media\\main_title\\Watched",
+      "autoplay_next": true,
+	  "audio_track": 1
+    },
+    "movies": {
+      "source_folder": "D:\\Media\\Movies\\ToWatch",
+      "watched_folder": "D:\\Media\\Movies\\Watched",
+      "autoplay_next": false
+    }
+  },
+  "mpv_options": [
+    "--fullscreen",
+    "--no-video-title-show",
+    "--input-ipc-server=\\\\.\\pipe\\mpvpipe"
+  ]
+}
