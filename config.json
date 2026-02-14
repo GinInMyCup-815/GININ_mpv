@@ -5,7 +5,7 @@
       "source_folder": "D:\\Media\\main_title",
       "watched_folder": "D:\\Media\\main_title\\Watched",
       "autoplay_next": true,
-	  "audio_track": 1
+      "audio_track": 1
     },
     "movies": {
       "source_folder": "D:\\Media\\Movies\\ToWatch",
@@ -17,5 +17,13 @@
     "--fullscreen",
     "--no-video-title-show",
     "--input-ipc-server=\\\\.\\pipe\\mpvpipe"
-  ]
+  ],
+  "mqtt": {
+    "enabled": false,
+    "host": "127.0.0.1",
+    "port": 1883,
+    "username": "",
+    "password": "",
+    "base_topic": "mediactl/series"
+  }
 }
